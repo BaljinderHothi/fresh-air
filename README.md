@@ -32,22 +32,11 @@ Medical professionals often face heavy workloads analyzing X-ray images, which c
 ## Conclusion
 This project bridges machine learning and healthcare, showcasing the potential of AI to assist in medical diagnostics. By automating lung X-ray analysis, the application could help alleviate workload pressures on healthcare professionals and support faster patient care.
 
-
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm start
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
+It should open automatically on its own!
