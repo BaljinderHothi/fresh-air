@@ -1,25 +1,45 @@
 import Link from "next/link";
 
-export default function Navbar() {
+export default function NavBar() {
   return (
-    <aside className="w-1/5 bg-gray-100 dark:bg-gray-800 p-4 min-h-screen shadow-md">
-      <nav className="flex flex-col gap-4 text-sm">
-        <Link href="/" className="flex items-center gap-2 p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-700">
-          <span>⭐</span> Main Page
-        </Link>
-        <Link href="/Lungs" className="flex items-center gap-2 p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-700">
-          <span>⭐</span> Lungs
-        </Link>
-        <Link href="/Pneumonia" className="flex items-center gap-2 p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-700">
-          <span>⭐</span> Pneumonia
-        </Link>
-        <Link href="/Model" className="flex items-center gap-2 p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-700">
-          <span>⭐</span> CV Model
-        </Link>
-        <Link href="/Quiz" className="flex items-center gap-2 p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-700">
-          <span>⭐</span> Quiz
-        </Link>
-      </nav>
-    </aside>
+    <nav className="bg-gray-800 text-white shadow-lg">
+      <div className="container mx-auto px-4">
+        <div className="flex justify-between items-center py-4">
+          {/* Navbar Brand */}
+          <Link href="/" className="text-2xl font-bold">
+            Fresh Air
+          </Link>
+
+          {/* Navbar Links */}
+          <ul className="flex space-x-4">
+            <li>
+              <Link href="/" className="hover:text-gray-400">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link href="/Lungs" className="hover:text-gray-400">
+                Lungs
+              </Link>
+            </li>
+            <li>
+              <Link href="/Pneumonia" className="hover:text-gray-400">
+                Pneumonia
+              </Link>
+            </li>
+            <li>
+              <Link href="/Model" className="hover:text-gray-400">
+                CV Model
+              </Link>
+            </li>
+            <li>
+              <Link href="/Quiz" className="hover:text-gray-400">
+                Quiz
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   );
 }
