@@ -1,27 +1,45 @@
 {
-  "name": "nextjs",
-  "version": "0.1.0",
-  "private": true,
+  "name": "seans-typescript-reactjs-redux-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "npm run build && node server.js",
+    "build": "./node_modules/.bin/webpack",
+    "deploy": "gh-pages -d dist"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "next": "15.0.3",
-    "react": "^19.0.0-rc-66855b96-20241106",
-    "react-dom": "^19.0.0-rc-66855b96-20241106"
+    "@types/uuid": "^3.4.4",
+    "express": "^4.16.4",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^4.3.1",
+    "typescript": "^3.3.3333",
+    "uuid": "^3.3.2",
+    "webpack-hot-middleware": "^2.24.3"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1",
-    "autoprefixer": "^10.4.20",
-    "eslint": "^8",
-    "eslint-config-next": "15.0.3",
-    "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.15",
-    "typescript": "^5"
+    "@types/node": "^11.9.5",
+    "@types/react": "^16.8.5",
+    "@types/react-datepicker": "^2.0.3",
+    "@types/react-dom": "^16.8.2",
+    "@types/react-redux": "^7.0.1",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/react-table": "^6.7.22",
+    "css-loader": "^2.1.0",
+    "gh-pages": "^2.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "react-datepicker": "^2.1.0",
+    "react-table": "^6.9.2",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.3",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-middleware": "^3.6.0"
   }
 }
