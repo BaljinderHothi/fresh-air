@@ -19,3 +19,18 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.lung-background {
+  height: 100vh; 
+  border-radius: 20px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--background);
+}
+
+.fresh-air {
+  font-size: 2rem; 
+  color: white;
+  text-align: center;
+}
