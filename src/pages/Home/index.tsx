@@ -20,7 +20,7 @@ const Home = () => {
         direction="right"
         title={IntroContent.title}
         content={IntroContent.text}
-        button={IntroContent.button}
+        // button={IntroContent.button}
         icon="developer.svg"
         id="intro"
       />
