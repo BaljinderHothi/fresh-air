@@ -1,16 +1,16 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "The difference between Healthy and Unhealthy Lungs",
+  "text": "Besides the difference of quality of life and the ability to breathe, the difference between healthy and unhealthy lungs can be seen below:",
   "section": [
     {
       "title": "Healthy Lungs?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg"
+      "content": "Healthy lungs appear clear on an X-ray, with no signs of fluid or inflammation. They efficiently deliver oxygen to the body, enabling strong physical performance and resilience against illnesses.",
+      "icon": "lung.svg"
     },
     {
       "title": "Lungs with Pneumonia",
-      "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg"
+      "content": "Lungs affected by pneumonia often show areas of opacity or cloudiness on an X-ray, caused by fluid or infection. This condition impairs oxygen exchange, leading to symptoms like shortness of breath, coughing, and fatigue",
+      "icon": "pneuLung.svg"
     }
   ]
 }
