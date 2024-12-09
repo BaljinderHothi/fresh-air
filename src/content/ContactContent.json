@@ -1,4 +1,4 @@
 {
     "title": "The model will go here",
-    "text": "Placeholder yap yap yap"
+    "text": "To get started, upload an image of the X-Ray of lungs, and let the model work its magic! It will return whether or not the X-Ray contains pneumonia as well as what type of Pneumonia and the accuracy in which it is saying this!"
 }
